@@ -1,11 +1,9 @@
-// Exercise 1 - Layout the board
+// tic-tac-toe.js
 
-document.addEventListener("DOMContentLoaded", () => {
-    // Get all squares inside the board
-    const squares = document.querySelectorAll("#board div");
-
-    // Add the "square" class to each one
-    squares.forEach(square => {
-        square.classList.add("square");
-    });
+window.addEventListener('DOMContentLoaded', () => {
+  const squares = document.querySelectorAll('#board div');
+  squares.forEach(square => {
+    square.classList.add('square');
+  });
 });
+
